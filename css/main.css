@@ -100,4 +100,17 @@ header .header-main .cta-btn .book-btn {
   border-radius: 4px;
   margin-right: 125px;
 }
+
+.hero {
+  background-image: url(../img/heroimage.webp);
+  height: 700px;
+  width: 100%;
+}
+
+.hero img {
+  width: 1349px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
 /*# sourceMappingURL=main.css.map */

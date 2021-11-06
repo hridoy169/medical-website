@@ -87,3 +87,17 @@ header {
     }
   }
 }
+
+// Hero Section
+.hero {
+  background-image: url(../img/heroimage.webp);
+  height: 700px;
+  width: 100%;
+
+  img {
+    width: 1349px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+}
