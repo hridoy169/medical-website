@@ -50,4 +50,54 @@ header .header-top .contact-list a i {
   color: #5db2ff;
   margin-right: 7px;
 }
+
+header .header-main {
+  padding: 18px 0;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+header .header-main .logo {
+  margin-left: 125px;
+}
+
+header .header-main .nav ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .header-main .nav ul li {
+  margin: 0 10px;
+}
+
+header .header-main .nav ul li a {
+  font-size: 15px;
+  color: #727272;
+  font-weight: 500;
+}
+
+header .header-main .cta-btn .book-btn {
+  background: #009dff;
+  padding: 12px 26px;
+  font-size: 14px;
+  font-weight: 400;
+  border: 1px solid transparent;
+  color: #fff;
+  border-radius: 4px;
+  margin-right: 125px;
+}
 /*# sourceMappingURL=main.css.map */
