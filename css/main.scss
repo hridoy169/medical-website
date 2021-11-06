@@ -9,6 +9,13 @@ a {
   text-decoration: none;
 }
 
+@mixin hoverEffect {
+  background-color: #fff;
+  color: #009dff;
+  border: 1px solid #009dff;
+  transition: all 0.5s ease;
+}
+
 // Header
 header {
   top: 0;
@@ -84,6 +91,10 @@ header {
       color: #fff;
       border-radius: 4px;
       margin-right: 125px;
+
+      &:hover {
+        @include hoverEffect;
+      }
     }
   }
 }
@@ -91,13 +102,57 @@ header {
 // Hero Section
 .hero {
   background-image: url(../img/heroimage.webp);
+  width: 1349px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
   height: 700px;
   width: 100%;
 
-  img {
-    width: 1349px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
+  .hero-text {
+    position: absolute;
+    top: 305px;
+    left: 130px;
+
+    h3 {
+      color: #1f1f1f;
+      font-size: 70px;
+      letter-spacing: 2px;
+      font-weight: 300;
+      line-height: 1.2em;
+
+      span {
+        font-weight: 700;
+      }
+    }
+
+    p {
+      font-size: 18px;
+      font-weight: 400;
+      color: #727272;
+      margin-bottom: 40px;
+      margin-top: 10px;
+    }
+
+    .service-btn {
+      background: linear-gradient(to right, #0181f5 0%, #5db2ff 100%);
+      display: inline-block;
+      padding: 18px 44px;
+      font-size: 15px;
+      font-weight: 500;
+      border: 0;
+      border: 1 px solid transparent;
+      border-radius: 4px;
+      text-align: center;
+      color: #fff;
+      cursor: pointer;
+
+      &:hover {
+        background: linear-gradient(to right, #fff 0%, #fff 100%);
+        border: 1px solid #009dff;
+        color: #009dff;
+        transition: all 0.5s ease;
+      }
+    }
   }
 }

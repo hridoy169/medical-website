@@ -101,16 +101,71 @@ header .header-main .cta-btn .book-btn {
   margin-right: 125px;
 }
 
-.hero {
-  background-image: url(../img/heroimage.webp);
-  height: 700px;
-  width: 100%;
+header .header-main .cta-btn .book-btn:hover {
+  background-color: #fff;
+  color: #009dff;
+  border: 1px solid #009dff;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 
-.hero img {
+.hero {
+  background-image: url(../img/heroimage.webp);
   width: 1349px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  height: 700px;
+  width: 100%;
+}
+
+.hero .hero-text {
+  position: absolute;
+  top: 305px;
+  left: 130px;
+}
+
+.hero .hero-text h3 {
+  color: #1f1f1f;
+  font-size: 70px;
+  letter-spacing: 2px;
+  font-weight: 300;
+  line-height: 1.2em;
+}
+
+.hero .hero-text h3 span {
+  font-weight: 700;
+}
+
+.hero .hero-text p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #727272;
+  margin-bottom: 40px;
+  margin-top: 10px;
+}
+
+.hero .hero-text .service-btn {
+  background: -webkit-gradient(linear, left top, right top, from(#0181f5), to(#5db2ff));
+  background: linear-gradient(to right, #0181f5 0%, #5db2ff 100%);
+  display: inline-block;
+  padding: 18px 44px;
+  font-size: 15px;
+  font-weight: 500;
+  border: 0;
+  border: 1 px solid transparent;
+  border-radius: 4px;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+}
+
+.hero .hero-text .service-btn:hover {
+  background: -webkit-gradient(linear, left top, right top, from(#fff), to(#fff));
+  background: linear-gradient(to right, #fff 0%, #fff 100%);
+  border: 1px solid #009dff;
+  color: #009dff;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 /*# sourceMappingURL=main.css.map */
