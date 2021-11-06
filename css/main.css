@@ -1,1 +1,38 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  top: 0;
+  width: 100%;
+}
+
+header .header-top {
+  padding: 12px 0;
+  background: #f5fbff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .header-top .social-media {
+  margin-left: 30px;
+}
+
+header .header-top .social-media a {
+  font-size: 15px;
+  color: #c7c7c7;
+  margin-right: 12px;
+}
+/*# sourceMappingURL=main.css.map */
