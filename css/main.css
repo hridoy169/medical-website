@@ -174,4 +174,64 @@ header .header-main .cta-btn .book-btn:hover {
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
+
+.service {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 35% 30% 35%;
+      grid-template-columns: 35% 30% 35%;
+  background-color: #83c4ff;
+}
+
+.service .single_service:nth-child(2) {
+  background-color: #5db2ff;
+}
+
+.service .single_service {
+  padding: 40px 30px;
+}
+
+.service .single_service i {
+  font-size: 50px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.service .single_service h3 {
+  font-size: 26px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.service .single_service p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #fff;
+  margin-top: 10px;
+  margin-bottom: 26px;
+}
+
+.service .single_service .btn {
+  color: #fff;
+  display: inline-block;
+  padding: 9px 24px;
+  font-size: 15px;
+  font-weight: 400;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.service .single_service .btn:hover {
+  background-color: #fff;
+  color: #009dff;
+  border: 1px solid #009dff;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
 /*# sourceMappingURL=main.css.map */
