@@ -188,6 +188,14 @@ header .header-main .cta-btn .book-btn:hover {
   background-color: #5db2ff;
 }
 
+.service .single_service:nth-child(1) {
+  padding-left: 120px;
+}
+
+.service .single_service:nth-child(3) {
+  padding-right: 120px;
+}
+
 .service .single_service {
   padding: 40px 30px;
 }
