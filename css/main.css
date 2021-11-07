@@ -366,4 +366,89 @@ header .header-main .cta-btn .book-btn:hover {
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
+
+.department_area {
+  max-width: 100%;
+  background: #f5fbff;
+  padding-top: 120px;
+  padding-bottom: 90px;
+}
+
+.department_area .department_title {
+  text-align: center;
+  margin-bottom: 55px;
+}
+
+.department_area .department_title h3 {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 48px;
+  color: #1f1f1f;
+  position: relative;
+  padding-bottom: 15px;
+}
+
+.department_area .department_title h3::before {
+  position: absolute;
+  background: #5db2ff;
+  height: 2px;
+  width: 50px;
+  content: "";
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: 0;
+}
+
+.department_area .department_title p {
+  font-size: 16px;
+  color: #727272;
+  line-height: 28px;
+  margin-bottom: 0;
+  font-weight: 300;
+}
+
+.department_area .department_card {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (29.33333%)[3];
+      grid-template-columns: repeat(3, 29.33333%);
+  -ms-grid-rows: (1fr)[2];
+      grid-template-rows: repeat(2, 1fr);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.department_area .department_card .single_department {
+  -webkit-box-shadow: 0 6px 10px rgba(0, 0, 0, 0.04);
+          box-shadow: 0 6px 10px rgba(0, 0, 0, 0.04);
+  background-color: #fff;
+  margin-bottom: 30px;
+  width: 362px;
+}
+
+.department_area .department_card .single_department:hover img {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.department_area .department_card .single_department .department_thumb {
+  overflow: hidden;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.department_area .department_card .single_department .department_thumb img {
+  width: 100%;
+}
+
+.department_area .department_card .single_department .department_content {
+  padding: 22px 30px 24px 30px;
+}
 /*# sourceMappingURL=main.css.map */
