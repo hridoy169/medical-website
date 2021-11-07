@@ -5,6 +5,20 @@
   font-family: "Poppins", sans-serif;
 }
 
+// Mixin
+@mixin hoverEffect {
+  background-color: #fff;
+  color: #009dff;
+  border: 1px solid #009dff;
+  transition: all 0.5s ease;
+}
+
+@mixin hoverEffect2 {
+  background-color: #5db2ff;
+  color: #fff;
+  transition: all 0.5s ease;
+}
+
 h1,
 h2,
 h3,
@@ -17,19 +31,6 @@ h6 {
 
 a {
   text-decoration: none;
-}
-
-@mixin hoverEffect {
-  background-color: #fff;
-  color: #009dff;
-  border: 1px solid #009dff;
-  transition: all 0.5s ease;
-}
-
-@mixin hoverEffect2 {
-  background-color: #5db2ff;
-  color: #fff;
-  transition: all 0.5s ease;
 }
 
 // Header
@@ -246,8 +247,7 @@ header {
   padding-bottom: 220px;
 
   display: flex;
-  // flex-wrap: wrap;
-  // margin: 0 -15px;
+  flex-wrap: wrap;
 
   .welcome_thumb {
     flex: 0 0 50%;
