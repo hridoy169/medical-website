@@ -5,6 +5,16 @@
   font-family: "Poppins", sans-serif;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.2em;
+  color: #1f1f1f;
+}
+
 a {
   text-decoration: none;
 }
@@ -13,6 +23,12 @@ a {
   background-color: #fff;
   color: #009dff;
   border: 1px solid #009dff;
+  transition: all 0.5s ease;
+}
+
+@mixin hoverEffect2 {
+  background-color: #5db2ff;
+  color: #fff;
   transition: all 0.5s ease;
 }
 
@@ -259,5 +275,73 @@ header {
 
   .welcome_info {
     flex: 0 0 50%;
+    padding-left: 90px;
+
+    h2 {
+      font-size: 18px;
+      position: relative;
+      font-weight: 400;
+      color: #1f1f1f;
+      margin-bottom: 40px;
+      padding-bottom: 9px;
+
+      &::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 2px;
+        width: 50px;
+        background: #5db2ff;
+      }
+    }
+
+    h3 {
+      font-weight: 500;
+      font-size: 36px;
+      margin-bottom: 10px;
+      width: 60%;
+    }
+
+    p {
+      font-size: 16px;
+      color: #727272;
+      line-height: 28px;
+      font-weight: 300;
+      margin-bottom: 13px;
+      width: 77%;
+    }
+
+    ul {
+      margin-bottom: 40px;
+      margin-top: 25px;
+
+      li {
+        list-style: none;
+        color: #727272;
+        font-size: 16px;
+        line-height: 28px;
+
+        i {
+          margin-right: 10px;
+          color: #5db2ff;
+        }
+      }
+    }
+    .btn-white {
+      color: #5db2ff;
+      display: inline-block;
+      padding: 9px 24px;
+      font-size: 15px;
+      font-weight: 400;
+      border: 1px solid #5db2ff;
+      border-radius: 5px;
+      text-align: center;
+      cursor: pointer;
+
+      &:hover {
+        @include hoverEffect2;
+      }
+    }
   }
 }

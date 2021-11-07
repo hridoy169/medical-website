@@ -6,6 +6,16 @@
   font-family: "Poppins", sans-serif;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.2em;
+  color: #1f1f1f;
+}
+
 a {
   text-decoration: none;
 }
@@ -281,5 +291,77 @@ header .header-main .cta-btn .book-btn:hover {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 50%;
           flex: 0 0 50%;
+  padding-left: 90px;
+}
+
+.welcome_area .welcome_info h2 {
+  font-size: 18px;
+  position: relative;
+  font-weight: 400;
+  color: #1f1f1f;
+  margin-bottom: 40px;
+  padding-bottom: 9px;
+}
+
+.welcome_area .welcome_info h2::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 50px;
+  background: #5db2ff;
+}
+
+.welcome_area .welcome_info h3 {
+  font-weight: 500;
+  font-size: 36px;
+  margin-bottom: 10px;
+  width: 60%;
+}
+
+.welcome_area .welcome_info p {
+  font-size: 16px;
+  color: #727272;
+  line-height: 28px;
+  font-weight: 300;
+  margin-bottom: 13px;
+  width: 77%;
+}
+
+.welcome_area .welcome_info ul {
+  margin-bottom: 40px;
+  margin-top: 25px;
+}
+
+.welcome_area .welcome_info ul li {
+  list-style: none;
+  color: #727272;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.welcome_area .welcome_info ul li i {
+  margin-right: 10px;
+  color: #5db2ff;
+}
+
+.welcome_area .welcome_info .btn-white {
+  color: #5db2ff;
+  display: inline-block;
+  padding: 9px 24px;
+  font-size: 15px;
+  font-weight: 400;
+  border: 1px solid #5db2ff;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.welcome_area .welcome_info .btn-white:hover {
+  background-color: #5db2ff;
+  color: #fff;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 /*# sourceMappingURL=main.css.map */
