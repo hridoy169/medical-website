@@ -493,3 +493,30 @@ header {
     }
   }
 }
+
+// Expert Doctors
+.expert_doctors {
+  padding: 120px 0;
+  width: 100%;
+
+  h3 {
+    font-size: 36px;
+    font-weight: 500;
+    color: #1f1f1f;
+    margin-bottom: 55px;
+  }
+
+  .card_doctor {
+    display: grid;
+    grid-template-columns: repeat(4, 22%);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    img {
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      overflow: hidden;
+    }
+  }
+}

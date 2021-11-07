@@ -526,4 +526,36 @@ header .header-main .cta-btn .book-btn:hover {
           transform: translateX(-50%);
   top: 0;
 }
+
+.expert_doctors {
+  padding: 120px 0;
+  width: 100%;
+}
+
+.expert_doctors h3 {
+  font-size: 36px;
+  font-weight: 500;
+  color: #1f1f1f;
+  margin-bottom: 55px;
+}
+
+.expert_doctors .card_doctor {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (22%)[4];
+      grid-template-columns: repeat(4, 22%);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.expert_doctors .card_doctor img {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  overflow: hidden;
+}
 /*# sourceMappingURL=main.css.map */
