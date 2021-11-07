@@ -451,4 +451,79 @@ header .header-main .cta-btn .book-btn:hover {
 .department_area .department_card .single_department .department_content {
   padding: 22px 30px 24px 30px;
 }
+
+.department_area .department_card .single_department .department_content h3 {
+  font-size: 22px;
+  color: #1f1f1f;
+  line-height: 33px;
+  font-weight: 500;
+}
+
+.department_area .department_card .single_department .department_content p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  color: #727272;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.department_area .department_card .single_department .department_content .btn-learn {
+  color: #5db2ff;
+  font-size: 16px;
+  background-color: transparent;
+}
+
+.department_area .department_card .single_department .department_content .btn-learn:hover {
+  text-decoration: underline;
+  color: #5db2ff;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.testimonial {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(../img/testimonial.webp);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/testimonial.webp);
+  padding: 180px 0;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.testimonial i {
+  color: #fff;
+  font-size: 40px;
+}
+
+.testimonial p {
+  color: #fff;
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 400;
+  margin-top: 12px;
+  margin-bottom: 47px;
+}
+
+.testimonial h4 {
+  color: #fff;
+  font-size: 13px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+  position: relative;
+  padding-top: 21px;
+}
+
+.testimonial h4::before {
+  position: absolute;
+  background: #fff;
+  width: 60px;
+  height: 2px;
+  content: "";
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  top: 0;
+}
 /*# sourceMappingURL=main.css.map */
