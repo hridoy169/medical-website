@@ -528,18 +528,21 @@ header .header-main .cta-btn .book-btn:hover {
 }
 
 .expert_doctors {
+  max-width: 100%;
   padding: 120px 0;
-  width: 100%;
 }
 
-.expert_doctors h3 {
-  font-size: 36px;
-  font-weight: 500;
-  color: #1f1f1f;
+.expert_doctors .doctors_title {
   margin-bottom: 55px;
 }
 
-.expert_doctors .card_doctor {
+.expert_doctors .doctors_title h3 {
+  font-size: 36px;
+  font-weight: 500;
+  color: #1f1f1f;
+}
+
+.expert_doctors .expert_card {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (22%)[4];
@@ -550,12 +553,24 @@ header .header-main .cta-btn .book-btn:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  text-align: center;
 }
 
-.expert_doctors .card_doctor img {
+.expert_doctors .expert_card .single_expert .expert_thumb {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   overflow: hidden;
+}
+
+.expert_doctors .expert_card .single_expert .expert_thumb img {
+  width: 100%;
+  vertical-align: middle;
+  border-style: none;
+}
+
+.expert_doctors .expert_card .single_expert .expert_name {
+  background: #f5fbff;
+  padding-top: 16px;
+  padding-bottom: 18px;
+  text-align: center;
 }
 /*# sourceMappingURL=main.css.map */

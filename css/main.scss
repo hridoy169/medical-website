@@ -496,27 +496,44 @@ header {
 
 // Expert Doctors
 .expert_doctors {
+  max-width: 100%;
   padding: 120px 0;
-  width: 100%;
 
-  h3 {
-    font-size: 36px;
-    font-weight: 500;
-    color: #1f1f1f;
+  .doctors_title {
     margin-bottom: 55px;
+
+    h3 {
+      font-size: 36px;
+      font-weight: 500;
+      color: #1f1f1f;
+    }
   }
 
-  .card_doctor {
+  .expert_card {
     display: grid;
     grid-template-columns: repeat(4, 22%);
     justify-content: center;
     align-items: center;
-    text-align: center;
 
-    img {
-      border-top-left-radius: 5px;
-      border-top-right-radius: 5px;
-      overflow: hidden;
+    .single_expert {
+      .expert_thumb {
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        overflow: hidden;
+
+        img {
+          width: 100%;
+          vertical-align: middle;
+          border-style: none;
+        }
+      }
+
+      .expert_name {
+        background: #f5fbff;
+        padding-top: 16px;
+        padding-bottom: 18px;
+        text-align: center;
+      }
     }
   }
 }
