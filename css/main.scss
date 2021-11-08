@@ -758,6 +758,11 @@ header {
           font-size: 16px;
           color: #bababa;
           line-height: 42px;
+
+          &:hover {
+            color: #5db2ff;
+            transition: all 0.3s ease;
+          }
         }
       }
     }

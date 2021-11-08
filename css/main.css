@@ -830,6 +830,12 @@ header .header-main .cta-btn .book-btn:hover {
   line-height: 42px;
 }
 
+.footer .footer_top .footer_widget .useful_links li a:hover {
+  color: #5db2ff;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
 .footer .copyright_text {
   padding: 30px;
   background-color: #000;
