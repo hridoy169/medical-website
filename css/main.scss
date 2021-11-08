@@ -566,3 +566,107 @@ header {
     }
   }
 }
+
+// Emergency
+.emergency_contact {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .single_emergency1 {
+    background-image: linear-gradient(rgba(#5db2ff, 0.8), rgba(#5db2ff, 0.8)),
+      url(../img/xemergency-1.png.pagespeed.ic.dzkR_tLkpJ.webp);
+    padding: 91px 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex: 0 0 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .info {
+      h3 {
+        font-size: 20px;
+        font-weight: 500;
+        color: #fff;
+        margin-bottom: 0.5rem;
+      }
+
+      p {
+        color: #fff;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 28px;
+      }
+    }
+
+    .info_button .btn-info {
+      margin-left: 50px;
+      border-radius: 30px;
+      display: inline-block;
+      padding: 9px 24px;
+      font-size: 15px;
+      font-weight: 400;
+      border: 1px solid #fff;
+      text-align: center;
+      color: #fff;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #fff;
+        color: #009dff;
+        transition: all 0.5s ease;
+      }
+    }
+  }
+
+  .single_emergency2 {
+    background-image: linear-gradient(rgba(#5db2ff, 0.8), rgba(#5db2ff, 0.8)),
+      url(../img/xemergency-2.png.pagespeed.ic.Db7myp6yIE.webp);
+    padding: 91px 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex: 0 0 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .info {
+      h3 {
+        font-size: 20px;
+        font-weight: 500;
+        color: #fff;
+        margin-bottom: 0.5rem;
+      }
+
+      p {
+        color: #fff;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 28px;
+      }
+    }
+
+    .info_button .btn-info {
+      margin-left: 50px;
+      border-radius: 30px;
+      display: inline-block;
+      padding: 9px 24px;
+      font-size: 15px;
+      font-weight: 400;
+      border: 1px solid #fff;
+      text-align: center;
+      color: #fff;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #fff;
+        color: #009dff;
+        transition: all 0.5s ease;
+      }
+    }
+  }
+}
