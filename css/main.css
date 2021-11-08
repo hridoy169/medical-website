@@ -46,6 +46,12 @@ header .header-top .social-media a {
   margin-right: 12px;
 }
 
+header .header-top .social-media a:hover {
+  color: #5db2ff;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
 header .header-top .contact-list {
   margin-right: 125px;
 }
@@ -770,6 +776,14 @@ header .header-main .cta-btn .book-btn:hover {
   width: 413px;
 }
 
+.footer .footer_top .footer_widget .p-details {
+  color: #c7c7c7;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  margin-bottom: 13px;
+}
+
 .footer .footer_top .footer_widget .social_links {
   margin-top: 47px;
 }
@@ -792,6 +806,12 @@ header .header-main .cta-btn .book-btn:hover {
   margin-right: 7px;
 }
 
+.footer .footer_top .footer_widget .social_links ul li a:hover {
+  color: #fff;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
 .footer .footer_top .footer_widget .footer_title {
   font-size: 22px;
   font-weight: 400;
@@ -808,5 +828,26 @@ header .header-main .cta-btn .book-btn:hover {
   font-size: 16px;
   color: #bababa;
   line-height: 42px;
+}
+
+.footer .copyright_text {
+  padding: 30px;
+  background-color: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .copyright_text p {
+  font-size: 16px;
+  color: #919191;
+  margin-bottom: 0;
+  font-weight: 400;
 }
 /*# sourceMappingURL=main.css.map */
