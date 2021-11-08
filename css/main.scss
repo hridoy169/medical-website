@@ -500,6 +500,7 @@ header {
   padding: 120px 0;
 
   .doctors_title {
+    margin-left: 78px;
     margin-bottom: 55px;
 
     h3 {
@@ -544,6 +545,11 @@ header {
         &:hover {
           background: #009dff;
           transition: all 0.3s ease;
+        }
+
+        &:hover h3,
+        &:hover span {
+          color: #fff;
         }
 
         h3 {

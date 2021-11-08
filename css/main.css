@@ -533,6 +533,7 @@ header .header-main .cta-btn .book-btn:hover {
 }
 
 .expert_doctors .doctors_title {
+  margin-left: 78px;
   margin-bottom: 55px;
 }
 
@@ -589,6 +590,11 @@ header .header-main .cta-btn .book-btn:hover {
   background: #009dff;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
+}
+
+.expert_doctors .expert_card .single_expert .expert_name:hover h3,
+.expert_doctors .expert_card .single_expert .expert_name:hover span {
+  color: #fff;
 }
 
 .expert_doctors .expert_card .single_expert .expert_name h3 {
