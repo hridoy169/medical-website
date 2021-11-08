@@ -516,6 +516,13 @@ header {
     align-items: center;
 
     .single_expert {
+      width: 270px;
+
+      &:hover img {
+        transform: scale(1.05);
+        transition: all 0.3s ease;
+      }
+
       .expert_thumb {
         border-top-left-radius: 5px;
         border-top-right-radius: 5px;
@@ -533,6 +540,22 @@ header {
         padding-top: 16px;
         padding-bottom: 18px;
         text-align: center;
+
+        &:hover {
+          background: #009dff;
+          transition: all 0.3s ease;
+        }
+
+        h3 {
+          font-size: 20px;
+          font-weight: 500;
+          margin-bottom: 1px;
+        }
+
+        span {
+          color: #919191;
+          font-size: 13px;
+        }
       }
     }
   }

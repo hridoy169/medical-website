@@ -555,6 +555,17 @@ header .header-main .cta-btn .book-btn:hover {
           align-items: center;
 }
 
+.expert_doctors .expert_card .single_expert {
+  width: 270px;
+}
+
+.expert_doctors .expert_card .single_expert:hover img {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
 .expert_doctors .expert_card .single_expert .expert_thumb {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
@@ -572,5 +583,22 @@ header .header-main .cta-btn .book-btn:hover {
   padding-top: 16px;
   padding-bottom: 18px;
   text-align: center;
+}
+
+.expert_doctors .expert_card .single_expert .expert_name:hover {
+  background: #009dff;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.expert_doctors .expert_card .single_expert .expert_name h3 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 1px;
+}
+
+.expert_doctors .expert_card .single_expert .expert_name span {
+  color: #919191;
+  font-size: 13px;
 }
 /*# sourceMappingURL=main.css.map */
